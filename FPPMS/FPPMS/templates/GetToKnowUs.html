@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fanshawe College</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/assates/css/style.css">
+    <link rel="stylesheet" href="../static/assates/css/effect.css">
+    <link rel="stylesheet" href="../static/assates/css/GetToKnowUs.css">
+    <link href="../static/assates/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../static/assates/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../static/assates/css/footer/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/assates/css/footer/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/assates/css/footer/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <!-- Vendor CSS-->
+    <link href="../static/assates/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../static/assates/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+    <!-- Main CSS-->
+    <link href="../static/assates/css/main.css" rel="stylesheet" media="all">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style type="text/css">
+        .container1 {
+            padding: 60px 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="container-fluid px-lg-5">
+                <nav class="navbar navbar-expand-lg my-navbar">
+                    <a class="navbar-brand" href="#"><span class="logo">
+                            <img src="../static/assates/image/logo.png" width="210" height="200" class="img-fluid"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-bars"aria-hidden="true"></i></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-bold" href="{% url 'home' %}">HOME<span
+                                        class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link font-weight-bold" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-bold" href="{% url 'faq' %}">FAQ</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0" action="{% url 'login' %}">
+                            <div class="showcase-btn"><button class="header-btn bg-danger my-2 my-sm-0 font-weight-bold" type="submit">Admin</button></div>
+                        </form>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="parallax-image img-fluid content-banner-aboutus">
+
+    </section>
+
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col-sm-8 mx-auto m-4 p-5 text-center aboutContent">
+                <h1 class="text-dark font-weight-bold text-center"> Who We Are</h1>
+                <hr class="bg-danger"><br>
+                <h3 class="text-dark font-weight-bold text-center"> Hello!</h3><br>
+                <p>The Fanshawe Project Proposal Management System is a web-based application that permits the customers, ex-students or the clients to submit the project proposals to be considered during the approval procedure.</p>
+                <br><p>This platform is required by the customers and the clients in order to submit the required project proposals to the Fanshawe College students. These projects would go through approval process which would involve the Fanshawe professors and stakeholders, who would review and determine if the project can be completed by the students. The list of completed project proposals that have been submitted can be reviewed by the current Fanshawe students, professors and stakeholders.</p>
+                <br><p>Fanshawe college is helping the London region to provide adaptable knowledgeable arrangements and experimental education chances established in accordance to the labour market needs. The colleges are spread in Woodstock, Simcoe, London and St. Thomas, serving half a million people by engaging, educating and empowering.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+        <footer class="page-footer font-small unique-color-dark " style="color:#ffffff; background-color: #808080;">
+
+        <section class="d-flex justify-content-between p-4" style="background-color: black">
+            <!-- Left -->
+            <div class="me-5" style="color: whitesmoke;">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div class="align">
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5" style="background-color: #808080;">
+
+            <!-- Grid row -->
+            <div class="row mt-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">Fanshawe Project Proposal</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Submit your Project Proposal</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Services</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!" style="color:#ffffff">Home</a>
+                    </p>
+                    <p>
+                        <a href="#!" style="color:#ffffff">Submit</a>
+                    </p>
+                    <p>
+                        <a href="#!" style="color:#ffffff">FAQ</a>
+                    </p>
+                    <p>
+                        <a href="#!" style="color:#ffffff">Contact Us</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!" style="color:#ffffff">Add Account</a>
+                    </p>
+
+
+                    <p>
+                        <a href="#!" style="color:#ffffff">Help</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="#" style="color:#ffffff">Fanshawe College</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+    <!--footer-->
+    <script src="../static/assates/js/footer/js/jquery-3.6.0.min.js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="../static/assates/js/footer/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>     
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Vendor JS-->
+    <script src="../static/assates/vendor/select2/select2.min.js"></script>
+    <script src="../static/assates/vendor/datepicker/moment.min.js"></script>
+    <script src="../static/assates/vendor/datepicker/daterangepicker.js"></script>
+    <!-- Main JS-->
+    <script src="../static/assates/js/global.js"></script>   
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            var navbar = $('.header-inner');
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

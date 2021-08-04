@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework', 
+    'adminlogin'
 ]
 
 MIDDLEWARE = [
@@ -140,3 +141,12 @@ STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static_cdn")
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
+#needs to be changed  incase of using any different mail service
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'fppms.fanshawe@gmail.com'
+EMAIL_HOST_PASSWORD = 'fanshawe123'
